@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div>
-      <h1>Hello React!</h1>
+    <div className="flex items-center justify-center">
+      <span className="mt-10 text-3xl">Hello React!</span>
     </div>
   );
 }
