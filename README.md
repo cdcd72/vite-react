@@ -48,3 +48,9 @@
    ```
    pnpm run lint
    ```
+
+## Other Styling demo
+
+- [Sass](https://github.com/cdcd72/vite-react/tree/pure-sass)
+- [Tailwind CSS](https://github.com/cdcd72/vite-react/tree/tailwindcss)
+- [Styled-components](https://github.com/cdcd72/vite-react/tree/styled-components)
