@@ -1,6 +1,6 @@
 # React + Vite
 
-- Skill：[React](https://react.dev/)、[TypeScript](https://www.typescriptlang.org/)
+- Skill：[React](https://react.dev/)、[TypeScript](https://www.typescriptlang.org/)、[Sass](https://sass-lang.com/)
 - Support Tool：[ESLint](https://eslint.org/)
 - Package Manager: [pnpm](https://pnpm.io/)
 - Frontend Tool：[Vite](https://vitejs.dev/)
