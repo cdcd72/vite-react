@@ -11,6 +11,14 @@
 
 2. Install pnpm.
 
+   Node.js version > `v16.13`
+
+   ```
+   corepack enable pnpm
+   ```
+
+   Node.js version < `v16.13`
+
    ```
    npm install pnpm -g
    ```
