@@ -6,4 +6,11 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
   envPrefix: 'APP_',
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern',
+      },
+    },
+  },
 });
