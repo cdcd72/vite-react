@@ -1,11 +1,11 @@
 import { fixupConfigRules } from '@eslint/compat';
+import { FlatCompat } from '@eslint/eslintrc';
+import js from '@eslint/js';
+import tsParser from '@typescript-eslint/parser';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import globals from 'globals';
-import tsParser from '@typescript-eslint/parser';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import js from '@eslint/js';
-import { FlatCompat } from '@eslint/eslintrc';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +27,8 @@ export default [
       '**/coverage/**',
       '**/dist/**',
       'eslint.config.mjs',
+      'postcss.config.cjs',
+      'tailwind.config.js',
     ],
   },
   ...fixupConfigRules(
@@ -42,7 +44,7 @@ export default [
   {
     settings: {
       react: {
-        version: '18.2',
+        version: '19.1',
       },
     },
     languageOptions: {
